@@ -23,7 +23,7 @@ public class BasicsAssignment {
 		} else {
 			typeOfBerth = "'Invalid'";
 		}
-		response = "Your berth number is " + berthNumber + " which is " + typeOfBerth + ".";
+		response = "The berth number you've entered is " + berthNumber + " which is " + typeOfBerth + ".";
 		return response;
 	}
 
