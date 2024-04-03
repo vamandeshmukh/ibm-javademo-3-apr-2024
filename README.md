@@ -51,9 +51,9 @@ White space
 
 
 
-		int num = 10;
-		char ch = 'a';
-		System.out.println( num + ch);
+	int num = 10;
+	char ch = 'a';
+	System.out.println( num + ch);
 
 	compilation error 
 	runtime exception 

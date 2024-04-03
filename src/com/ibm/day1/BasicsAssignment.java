@@ -32,7 +32,5 @@ public class BasicsAssignment {
 		for (int i = 0; i <= 73; i++) {
 			System.out.println(BasicsAssignment.findBerthType(i));
 		}
-
 	}
-
 }
