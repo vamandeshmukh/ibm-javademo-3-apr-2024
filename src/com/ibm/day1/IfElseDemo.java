@@ -14,7 +14,5 @@ public class IfElseDemo {
 		} else {
 			System.out.println("something else");
 		}
-
 	}
-
 }

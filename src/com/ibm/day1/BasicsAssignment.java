@@ -2,7 +2,8 @@ package com.ibm.day1;
 
 public class BasicsAssignment {
 
-	public static void findBerthType(int berthNumber) {
+	public static String findBerthType(int berthNumber) {
+		String response = "";
 		String berthType = ""; // lower, middle, upper, side-lower, side-upper
 		if (berthNumber >= 1 && berthNumber <= 72) {
 			if (berthNumber % 8 == 1 || berthNumber % 8 == 4)
@@ -18,13 +19,14 @@ public class BasicsAssignment {
 		} else {
 			berthType = "'Invalid'";
 		}
-		System.out.println("Your berth number is " + berthNumber + " which is " + berthType + ".");
+		response = "Your berth number is " + berthNumber + " which is " + berthType + ".";
+		return response;
 	}
 
 	public static void main(String[] args) {
 
 		for (int i = 0; i <= 73; i++) {
-			BasicsAssignment.findBerthType(i);
+			System.out.println(BasicsAssignment.findBerthType(i));
 		}
 
 	}

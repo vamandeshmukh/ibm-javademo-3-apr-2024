@@ -46,3 +46,34 @@ White space
  
 
 
+
+
+
+
+
+		int num = 10;
+		char ch = 'a';
+		System.out.println( num + ch);
+
+	compilation error 
+	runtime exception 
+	10a
+	10 a 
+	10
+	100
+	107
+	108 
+	256 
+	1089 
+	NOTA 
+
+	
+
+
+
+
+
+
+
+
+
