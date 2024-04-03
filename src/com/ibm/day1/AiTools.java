@@ -3,6 +3,8 @@ package com.ibm.day1;
 class ThisIsClass {
 
 	static void thisIsMethod() {
+		
+		int thisIsVariable;
 
 	}
 
