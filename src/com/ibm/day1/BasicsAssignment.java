@@ -4,9 +4,9 @@ public class BasicsAssignment {
 	
 	public static void main(String[] args) {
 		
-		int berthNumber = 1;
+		int berthNumber = 1; // 1 to 72 
 		
-		String berthType = "";
+		String berthType = "";  // lower, middle, upper, side-lower, side-upper 
 		
 		// your code 
 		
