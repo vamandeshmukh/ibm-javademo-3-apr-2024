@@ -28,8 +28,21 @@ White space
 		int num = 10;
 
 
+## datatypes - 
 
+	- primitive datatypes 
+	- reference datatypes 	
 
+### primitive datatypes - store only one single value 
 
+	integer types - byte, short, int, long, char  
+	floating types - float, double 
+	character type - char
+	boolean type - boolean 
+
+### reference datatypes - store group of values together 
+	
+	array, String, class, enum, interface, ... 
+ 
 
 
