@@ -1,5 +1,6 @@
 package com.ibm.day2.multi;
 
+//public class ThreadClass extends Thread {
 public class ThreadClass extends Thread {
 
 	@Override

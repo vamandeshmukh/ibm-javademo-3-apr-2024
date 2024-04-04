@@ -8,6 +8,8 @@ public class ThreadDemo {
 		obj.start();
 		ThreadClass obj2 = new ThreadClass();
 		obj2.start();
+		ThreadClass obj3 = new ThreadClass();
+		obj3.start();
 	}
 
 }
