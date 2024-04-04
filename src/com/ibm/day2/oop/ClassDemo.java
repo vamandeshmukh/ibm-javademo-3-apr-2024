@@ -1,9 +1,12 @@
 package com.ibm.day2.oop;
 
 public class ClassDemo {
+	
+	static double finalBillAmount; // class level - static field 
+	double someOtherVariable; // class level - instance field 
 
 	static void gstBillPrint(double amount) {
-		double gst = 18;
+		double gst = 18; // local variable / local field 
 		double billAmount = amount + (amount * (gst / 100));
 		System.out.println(billAmount);
 	}
