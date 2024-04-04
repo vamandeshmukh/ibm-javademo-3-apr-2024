@@ -68,6 +68,14 @@ White space
 	NOTA 
 
 	
+## OOP in Java 
+
+### Inheritance 
+
+- members of a class inherited by a sub-class 
+- code reusability 
+
+
 
 
 
