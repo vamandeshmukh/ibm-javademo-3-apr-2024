@@ -14,6 +14,11 @@ public class InheritDemo {
 		phone2.call();
 		phone2.sms();
 		phone2.camera();
+		SuperSmartPhone phone3 = new SuperSmartPhone();
+		System.out.println("super smart phone");
+		phone3.call();
+		phone3.sms();
+		phone3.camera();
 	}
 
 }
