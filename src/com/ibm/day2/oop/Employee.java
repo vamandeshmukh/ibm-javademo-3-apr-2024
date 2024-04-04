@@ -7,6 +7,7 @@ public class Employee {
 	double salary;
 
 	public Employee() {
+		super();
 		System.out.println("default constructor");
 	}
 
