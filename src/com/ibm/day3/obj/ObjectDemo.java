@@ -4,14 +4,16 @@ public class ObjectDemo {
 
 	public static void main(String[] args) {
 
-		Employee emp = new Employee(101, "Sonu", 10.5);
+//		Employee emp2 = new Employee(102, "Monu", 10.25);
 
-//		System.out.println(emp.getEmployeeId());
-//		System.out.println(emp.getFirstName());
-//		System.out.println(emp.getSalary());
-//		System.out.println(emp.getFirstName() + " " + emp.getSalary() + " " + emp.getEmployeeId());
-		
-		System.out.println(emp.toString());
+		Employee emp1 = new Employee(101, "Sonu", 10.50);
+		Employee emp2 = new Employee(101, "Sonu", 10.50);
+
+//		System.out.println(emp1.toString());
+
+		System.out.println(emp1.hashCode());
+		System.out.println(emp2.hashCode());
+		System.out.println(emp1.equals(emp2));
 
 	}
 

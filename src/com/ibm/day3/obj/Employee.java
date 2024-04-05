@@ -1,10 +1,16 @@
 package com.ibm.day3.obj;
 
+import java.util.Objects;
+
 public class Employee {
 
+	// business fields 
+	
 	private int employeeId;
 	private String firstName;
 	private double salary;
+	
+	// constructors in ascending order, getters-setters, toString, hashcode, equals 
 
 	public Employee() {
 		super();
@@ -41,11 +47,29 @@ public class Employee {
 		this.salary = salary;
 	}
 
+	// some more
+
 	@Override
 	public String toString() {
 		return "Employee [employeeId=" + employeeId + ", firstName=" + firstName + ", salary=" + salary + "]";
 	}
 
-	// some more
+	@Override
+	public int hashCode() {
+		return Objects.hash(employeeId, firstName, salary);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Employee other = (Employee) obj;
+		return employeeId == other.employeeId && Objects.equals(firstName, other.firstName)
+				&& Double.doubleToLongBits(salary) == Double.doubleToLongBits(other.salary);
+	}
 
 }
