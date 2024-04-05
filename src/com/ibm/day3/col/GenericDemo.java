@@ -2,7 +2,7 @@ package com.ibm.day3.col;
 
 import java.util.ArrayList;
 
-public class CollectionDemo2 {
+public class GenericDemo {
 
 	public static void main(String[] args) {
 
