@@ -27,8 +27,10 @@ public class IteratorDemo {
 		}
 
 		System.out.println("Iterate collection using iterator:");
-		
 		Iterator<String> iterator = myFriends.iterator();
+		while (iterator.hasNext()) {
+			System.out.println(iterator.next());
+		}
 
 	}
 
