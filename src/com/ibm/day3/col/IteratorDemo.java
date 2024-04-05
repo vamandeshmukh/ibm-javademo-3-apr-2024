@@ -8,21 +8,21 @@ public class IteratorDemo {
 
 	public static void main(String[] args) {
 
-		List<String> myList = new ArrayList<>();
+		List<String> myFriends = new ArrayList<>();
 
-		myList.addAll(Arrays.asList("Sonu", "Monu", "Ponu", "Gonu"));
+		myFriends.addAll(Arrays.asList("Sonu", "Monu", "Ponu", "Gonu"));
 
-		System.out.println(myList);
-		System.out.println(myList.size());
+		System.out.println(myFriends);
+		System.out.println(myFriends.size());
 
-		System.out.println("Iterate collection using for loop");
-		for (int i = 0; i < myList.size(); i++) {
-			System.out.println(myList.get(i));
+		System.out.println("Iterate collection using for loop:");
+		for (int i = 0; i < myFriends.size(); i++) {
+			System.out.println(myFriends.get(i));
 		}
 
-		System.out.println("Iterate collection using for each loop");
-		for (String element : myList) {
-			System.out.println(element);
+		System.out.println("Iterate collection using for each loop:");
+		for (String friend : myFriends) {
+			System.out.println(friend);
 		}
 
 	}
