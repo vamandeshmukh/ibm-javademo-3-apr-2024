@@ -33,8 +33,11 @@ public class IteratorDemo {
 		}
 
 		System.out.println("Iterate collection using forEach method:");
-		
+
 //		myFriends.forEach(null);
+//		myFriends.forEach(() -> {});
+//		myFriends.forEach((friend) -> { System.out.println(friend);});
+		myFriends.forEach(friend -> System.out.println(friend));
 
 	}
 
