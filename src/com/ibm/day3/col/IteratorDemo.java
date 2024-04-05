@@ -2,6 +2,7 @@ package com.ibm.day3.col;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.List;
 
 public class IteratorDemo {
@@ -24,6 +25,10 @@ public class IteratorDemo {
 		for (String friend : myFriends) {
 			System.out.println(friend);
 		}
+
+		System.out.println("Iterate collection using iterator:");
+		
+		Iterator<String> iterator = myFriends.iterator();
 
 	}
 
