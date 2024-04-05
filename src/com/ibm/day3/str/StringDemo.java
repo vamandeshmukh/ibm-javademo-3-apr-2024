@@ -26,6 +26,8 @@ public class StringDemo {
 		} else {
 			System.out.println("Invalid");
 		}
+		
+		// use other methods here 
 
 	}
 
