@@ -1,5 +1,7 @@
 package com.ibm.day2.ex;
 
+import com.ibm.day2.multi.Delete;
+
 public class ExDemo {
 
 	public static void main(String[] args) {
@@ -7,7 +9,9 @@ public class ExDemo {
 		int i = 10;
 		int j = 0; // 0, 5
 		int k = i / j; //
-
+//		Delete.num = 10;
+//		Delete.num2 = 20;
+		Delete.num3 = 30;
 	}
 
 }
