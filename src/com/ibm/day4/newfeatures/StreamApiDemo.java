@@ -34,6 +34,7 @@ public class StreamApiDemo {
 
 		System.out.println("list of first n1 to n2 employees:");
 		empList.stream().skip(1).limit(2).forEach(System.out::println);
+		
 	}
 
 }
