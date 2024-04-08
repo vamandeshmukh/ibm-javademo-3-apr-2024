@@ -15,8 +15,11 @@ public class HttpDemo {
 		String dataUrl = "https://jsonplaceholder.typicode.com/users/2";
 
 		HttpClient client = HttpClient.newBuilder().build();
+
 		HttpRequest request = HttpRequest.newBuilder().uri(URI.create(dataUrl)).build();
+
 		HttpResponse<String> response = null;
+
 		try {
 			response = client.send(request, HttpResponse.BodyHandlers.ofString());
 		} catch (IOException e) {
