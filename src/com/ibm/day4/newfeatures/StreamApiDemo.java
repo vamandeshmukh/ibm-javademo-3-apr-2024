@@ -16,7 +16,24 @@ public class StreamApiDemo {
 		System.out.println("list of all employees:");
 		empList.forEach(System.out::println);
 
+		System.out.println("Using Stream API :-");
 		System.out.println("list of employees with salary > 13:");
+
+//		empList.forEach(emp -> {
+//			if (emp.getSalary() > 13)
+//				System.out.println(emp);
+//		});
+
+		empList.stream().filter(emp -> emp.getSalary() > 13).forEach(System.out::println);
+
+		System.out.println("list of only first n employees:");
+		empList.stream().limit(2).forEach(System.out::println);
+
+		System.out.println("list of employees except first n:");
+		empList.stream().skip(2).forEach(System.out::println);
+
+		System.out.println("list of first n1 to n2 employees:");
+		empList.stream().skip(1).limit(2).forEach(System.out::println);
 	}
 
 }
