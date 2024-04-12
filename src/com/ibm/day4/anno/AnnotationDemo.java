@@ -30,7 +30,7 @@ class C1 implements Int {
 public class AnnotationDemo {
 
 	public static void main(String[] args) {
-r
+
 	}
 
 }
